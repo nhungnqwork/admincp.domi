@@ -1,6 +1,5 @@
 <?php
 session_start();
-include("admincp0101101000110011/index.php");
 
 ?>
 
@@ -31,6 +30,7 @@ if (isset($_POST["btn_submit"])) {
                 // Thực thi hành động sau khi lưu thông tin vào session
                 // ở đây mình tiến hành chuyển hướng trang web tới một trang gọi là index.php
 			header('Location: admincp0101101000110011/index.php');
+		include("admincp0101101000110011/index.php");
 	}else{
 
 		echo "tên đăng nhập hoặc mật khẩu không đúng !";
