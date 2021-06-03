@@ -12,7 +12,6 @@
 		<?php
 			session_start();
 			include("config.php");
-			include("admincp0101101000110011/login.php")
 		?>
 
 </body>
