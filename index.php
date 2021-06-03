@@ -13,7 +13,7 @@
 			session_start();
 			include("admincp0101101000110011/config.php");
 		?>
-	<form method="POST" action="admincp0101101000110011/index.php">
+	<form method="POST">
 	<fieldset>
 	    <legend>Đăng nhập</legend>
 	    	<table>
