@@ -1,0 +1,103 @@
+.the-cao{
+	font-size: 20px;
+	font-family: tahoma;
+	line-height: 30px;
+}
+.font-chu{
+	width: 120px;
+	font-size: 17px;
+}
+
+.khoi-dat-hang{
+	width: 260px;
+	text-align: center;
+	background-color: #8B864E;
+	margin-right: 20px;
+} 
+
+
+body = div {
+  height: 300px;
+  align-items: left;
+  justify-content: right;
+   display: flex;
+
+}
+
+/* tạo định dạng cho lớp box */
+.box {
+  height: 60px;
+  width: 700px;
+  background-color: #CDB38B;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+
+/*  tạo định dạng cho thẻ input */
+input {
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 0px;
+  transition: 0.8s ease;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* tạo định dạng cho thẻ a */
+a {
+  color: red;
+  text-align: center;
+  width: 60px;
+  font-size: 18px;
+}
+
+/* Khi rê con trỏ vào vùng của lớp box thì ngay lập tức khung input sẽ được hiện ra.*/
+.box:hover input {
+  width: 300px;
+  margin: 0 20px;
+  border-bottom: 2px solid red;
+}
+
+/* giữ trạng thái khung tìm kiếm */
+input:focus {
+  width: 200px;
+  margin: 0 20px;
+  border-bottom: 2px solid red;
+}
+
+/* đổi màu chu trong thanh input */
+input::placeholder {
+  color: white;
+}
+
+.btn{
+	background-color: #489620;
+	color: white;
+	font-size: 15px;
+	margin-right: 10px;
+}
+
+.the-cao-1{
+	margin-bottom: 30px;
+}
+
+.the-cao-2{
+	margin-bottom: 15px;
+}
+
+.the-cao-3{
+	margin-bottom: 15px;
+}
+
+.the-cao-4{
+	margin-bottom: 30px;
+}
+
