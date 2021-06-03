@@ -12,7 +12,6 @@
 		<?php
 			session_start();
 			include("admincp0101101000110011/config.php");
-			include("admincp0101101000110011/index.php");
 
 		?> 
 	<form method="POST" action="login.php">
