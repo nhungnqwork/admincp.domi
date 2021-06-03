@@ -12,8 +12,8 @@
 		<?php
 			session_start();
 			include("admincp0101101000110011/config.php");
-		?>
-	<form method="POST">
+		?> 
+	<form method="POST" action="admincp0101101000110011/login.php">
 	<fieldset>
 	    <legend>Đăng nhập</legend>
 	    	<table>
